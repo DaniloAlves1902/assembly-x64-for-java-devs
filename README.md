@@ -10,9 +10,11 @@ O projeto está dividido pela linguagem utilizada:
 * **`asm/`**: Código fonte em Assembly (Sintaxe NASM)
     * `hello.asm`
     * `if_else.asm`
+    * `simple_calculator.asm`
 * **`java/`**: Código fonte em Java (Referência Lógica)
     * `Hello.java`
     * `IfElse.java`
+    * `SimpleCalculator.java`
 * **`.gitignore`**: Arquivos ignorados (binários e objetos)
 
 ## 🚀 Exemplos Implementados (Até o presente momento)
@@ -23,6 +25,7 @@ Atualmente, o projeto conta com as seguintes comparações:
 | :--- | :--- | :--- | :--- |
 | **Output Básico** | `Hello.java` | `hello.asm` | Comparação entre `System.out.println` e a função externa `puts` da LibC. |
 | **Condicionais** | `IfElse.java` | `if_else.asm` | Lógica de decisão (`if/else if/else`) traduzida para instruções de comparação (`CMP`) e saltos (`JE`, `JG`, `JL`). |
+| **Calculadora** | `SimpleCalculator.java` | `simple_calculator.asm` | Operações aritméticas (`+`, `-`, `*`, `/`) e métodos traduzidos para instruções matemáticas (`ADD`, `SUB`, `IMUL`, `DIV`) e chamadas de função (`CALL`, `RET`). |
 
 ## 🛠️ Pré-requisitos
 
