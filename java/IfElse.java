@@ -3,11 +3,11 @@ public class IfElse {
         int numero = -5;
 
         if (numero > 0) {
-            System.out.println("O numero e positivo");
+            System.out.println("O numero e positivo, number is positive");
         } else if (numero < 0) {
-            System.out.println("O numero e negativo");
+            System.out.println("O numero e negativo, number is negative");
         } else {
-            System.out.println("O numero e zero");
+            System.out.println("O numero e zero, number is zero");
         }
     }
 }
